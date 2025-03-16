@@ -1,0 +1,59 @@
+
+$font-sans: "Josefin Sans", sans-serif;
+$font-serif: "Aleo", serif;
+
+$font-size-l: 48px;
+$font-size-m: 36px;
+$font-size-s: 22px;
+$font-size-xs: 16px;
+$font-size-xxs: 14px;
+
+$primary-color: #496BFE;
+$text-color: #E8E8E8; 
+$bg-color:white;
+
+
+$spacing-l: 46px;
+$spacing-m: 23px;
+$spacing-s: 13px;
+
+
+$line-height-s: 26px;
+$line-height-m: 46px;
+
+$padding:32px;
+
+
+h1 {
+  font-family: $font-sans;
+  font-size: $font-size-l !important;  
+  color: $bg-color;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 !important;
+}
+
+ 
+h2 {
+  font-family: $font-serif;
+  font-size: $font-size-m !important;
+  color: $bg-color;
+  margin: 0
+}
+
+h3{
+  font-family: $font-sans;
+  font-size: 20px !important;
+  color: $bg-color;
+  margin: 0
+}
+
+p{
+  font-family: $font-sans;
+  font-size: $font-size-xs !important;
+  color: $text-color;
+  letter-spacing: 1.6px;
+  margin: 0
+}
+

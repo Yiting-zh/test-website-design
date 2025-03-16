@@ -1,0 +1,49 @@
+@use 'styles' as *;
+
+.search-bar{
+  width: 653px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 108px;
+  overflow: hidden;  
+}
+
+.search-bar input{
+  border: none;
+  padding: 25px;
+  width: 600px;
+  height: 100%;
+  font-size: $font-size-xxs;
+  font-family: $font-sans;
+  letter-spacing: 2.8px;
+  color: #999999;
+  padding-left: 131px;
+}
+
+
+.hero-button {
+  display: flex;
+  right: 0;
+  height: 63px;
+  background-color: $primary-color;
+  color: $bg-color;
+  font-size: $font-size-xxs;
+  font-weight: normal;
+  font-family: $font-serif;
+  letter-spacing: 1.4px;
+  border: 2px;
+  border-color: white;
+  white-space: nowrap;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  padding: 19px 16px 17px 36px;
+  box-sizing: border-box;
+}
+
+.hero-button img{
+  width: 22px;
+  height: auto;
+}

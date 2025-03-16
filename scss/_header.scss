@@ -1,0 +1,50 @@
+@use 'styles' as *;
+
+.hero{
+  background-image: url(/images/bg-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 264px;
+  padding-bottom: 132px;
+}
+
+.hero-text-s {
+  font-family: $font-sans;
+  font-size: $font-size-s;
+  letter-spacing: 6.82px;
+  margin-bottom: 48px;
+}
+
+.hero-text-xss{
+  font-family: $font-sans;
+  font-size: $font-size-xxs;
+  letter-spacing: 2.8px;
+  line-height: $line-height-s;
+}
+
+.hero-down{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-down img{
+  width: 17px;
+  height: auto;
+}
+
+.nav-bar{
+  background-color: $primary-color;
+}
