@@ -63,5 +63,13 @@
   background: linear-gradient(40deg, #496BFE 0% 40%, rgba(84, 116, 253, 100) 40% 100%);
   text-transform: uppercase;
   max-width: 228px;
-  height: 63px;
+  max-height: 63px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.3s ease-in-out;
+
+  &:hover, &:focus {
+    background: linear-gradient(40deg, #3549C4 0% 40%, rgba(52, 86, 220, 1) 40% 100%);
+    outline: none;
+    transform: scale(1.05); 
+  }
 }

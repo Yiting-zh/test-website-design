@@ -84,6 +84,13 @@ a{
   font-family: $font-serif;
   font-size: $font-size-xxs;
   text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+
+  &:hover, &:focus {
+    color: #FFD700; 
+    outline: none;
+  }
+
 }
 
 

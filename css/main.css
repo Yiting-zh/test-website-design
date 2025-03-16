@@ -354,6 +354,11 @@ a {
   font-family: "Aleo", serif;
   font-size: 14px;
   text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+a:hover, a:focus {
+  color: #FFD700;
+  outline: none;
 }
 
 .search-bar {
@@ -414,7 +419,14 @@ a {
   background: linear-gradient(40deg, #496BFE 0% 40%, rgb(84, 116, 253) 40% 100%);
   text-transform: uppercase;
   max-width: 228px;
-  height: 63px;
+  max-height: 63px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.3s ease-in-out;
+}
+.section-button:hover, .section-button:focus {
+  background: linear-gradient(40deg, #3549C4 0% 40%, rgb(52, 86, 220) 40% 100%);
+  outline: none;
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=main.css.map */
