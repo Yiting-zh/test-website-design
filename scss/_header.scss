@@ -1,11 +1,20 @@
 @use 'styles' as *;
 
+
+
+header{
+  max-width: calc(100vw - 28px);
+  box-sizing: border-box;
+  height: auto;
+  margin: 0 auto;
+}
+
 .hero{
   background-image: url(/images/bg-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: auto;
 
 }
@@ -16,7 +25,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 264px;
-  padding-bottom: 132px;
+  padding-bottom: 142px;
 }
 
 .hero-text-s {
@@ -45,6 +54,36 @@
   height: auto;
 }
 
+
+
 .nav-bar{
+  max-width: calc(100vw - 28px);
+  margin: 0 auto;
+  box-sizing: border-box;
   background-color: $primary-color;
 }
+
+.nav-bar nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav-bar nav ul{
+  list-style: none;
+  display: flex;
+  gap: 42px;
+}
+
+a{
+  text-decoration: none;
+  color: $bg-color;
+  font-family: $font-serif;
+  font-size: $font-size-xxs;
+  text-transform: uppercase;
+}
+
+
