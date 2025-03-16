@@ -1,2 +1,42 @@
+@use 'styles' as *;
+
+footer{
+  background-color: #232323;
+  max-width: calc(100vw - 28px);
+  box-sizing: border-box;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-top: 122px;
+  margin-top: 1px;
+}
+
+.footer-title{
+  font-family: $font-sans;
+  font-size: 24px !important;
+  font-weight: bold;
+  letter-spacing: 3.36px;
+  text-transform: uppercase
+}
+
+.footer-text{
+  font-size: $font-size-xs;
+  font-family: $font-sans;
+  letter-spacing: 1.6px;
+}
 
 
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+footer ul li{
+  list-style: none;
+}
